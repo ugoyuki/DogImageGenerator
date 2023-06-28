@@ -1,0 +1,42 @@
+button{
+    cursor: pointer;
+    padding: 2rem;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    transition: all 300ms ;
+}
+
+button:hover {
+    background-color: #808080;
+}
+
+div img{
+    border: 3px solid #808080;
+    cursor: pointer;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 300ms ;
+}
+div img:hover{
+    transform: scale(1.03);
+}
+
+#main{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+div div{
+    max-width: max-content;
+}
+
+div div p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
